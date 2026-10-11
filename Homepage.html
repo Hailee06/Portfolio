@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ngọc Hải</title>
+    <link rel="stylesheet" href="Homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header-container">
+        <nav class="floating-nav">
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            
+            <label for="menu-toggle" class="hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-item active">🏠 Home</a></li>
+                <li><a href="#about" class="nav-item">👤 About</a></li>
+                <li><a href="#project" class="nav-item">📁 Project</a></li>
+                <li><a href="#skill" class="nav-item"> ⚡ Skill</a></li>
+                <li><a href="#contact" class="nav-item">✉️ Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class = "hero-section">
+        <div class ="hero-content">
+            <h2 class = "greeting">Hi, I'm Huỳnh Ngọc Hải</h2>
+            <h1 class="typing-text">IT Student</h1>
+            <p class="bio">
+                Tôi là sinh viên chuyên ngành Công nghệ Thông tin tại TP.HCM, có niềm đam mê mãnh liệt với lập trình và phát triển web. Mục tiêu của tôi là trở thành một lập trình viên xuất sắc, có khả năng xây dựng các ứng dụng sáng tạo và mang lại giá trị thực tế.
+            </p>
+            <div class="location">
+                📍 Ho Chi Minh City, Vietnam
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#project" class="btn btn-primary">View Projects →</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me →</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="avatar.jpg" alt="Huỳnh Ngọc Hải" class="avatar">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="section-heading">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Hành trình và định hướng của tôi</p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-image">
+                <img src="nen.jpg" alt="Huỳnh Ngọc Hải" class="about-img">
+            </div>
+            <div class="about-text">
+                <h3>Huỳnh Ngọc Hải</h3>
+                <p>Tôi là sinh viên ngành Công nghệ Thông tin, có niềm đam mê với lập trình và phát triển web.</p>
+                <p>Tôi thích tìm hiểu về phát triển website, thiết kế giao diện người dùng và xây dựng các ứng dụng phục vụ nhu cầu thực tế.</p>
+                <p>Hiện tại tôi đang tập trung nâng cao kiến thức về <strong>HTML, CSS, JavaScript, C++</strong> và cơ sở dữ liệu.</p>
+                <p>Mục tiêu của tôi là trở thành một lập trình viên có khả năng xây dựng những sản phẩm chất lượng, thân thiện với người dùng và mang lại giá trị thực tế.</p>
+                
+                <a href="#contact" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">Liên hệ với tôi</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project" class="projects-section">
+        <div class="section-heading">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Hãy cùng khám phá những dự án sáng tạo và giải pháp công nghệ mà tôi đã phát triển </p>
+        </div>
+
+        
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Personal Expense Management</h3>
+                    <p>Hệ thống quản lý thu chi cá nhân và đồng bộ dữ liệu. Đã hoàn thiện tài liệu thiết kế hệ thống bao gồm sơ đồ tuần tự và sơ đồ hoạt động áp dụng logic quyết định nhị phân nghiêm ngặt.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">System Design</span>
+                        <span class="tech-tag">UML</span>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>UniShare Prototype</h3>
+                    <p>Nguyên mẫu giao diện (low-fidelity prototype) 4 màn hình cho ứng dụng chia sẻ tài nguyên học tập hướng tới sinh viên, tích hợp các nguyên tắc Design Thinking nhằm giảm áp lực đồng trang lứa.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">UI/UX</span>
+                        <span class="tech-tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Algorithm Optimization</h3>
+                    <p>Báo cáo phân tích chuyên sâu về tối ưu hóa quảng cáo trực tuyến thông qua các chiến lược thuật toán C++ nâng cao như Knapsack, Greedy, và Nhánh cận (Branch and Bound).</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">Algorithms</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skill" class="skills-section">
+        <div class="section-heading">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Tổng hợp các kỹ năng và công nghệ tôi đã tích lũy</p>
+        </div>
+        <div class="skills-list">
+            <div class="skill-card">⚡ HTML5 & CSS3</div>
+            <div class="skill-card">⚡ JavaScript</div>
+            <div class="skill-card">⚡ C++ Programming</div>
+            <div class="skill-card">⚡ SQL & Database</div>
+            <div class="skill-card">⚡ UI/UX Design (Figma)</div>
+            <div class="skill-card">⚡ Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-heading">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Hãy kết nối hoặc gửi lời nhắn cho tôi</p>
+        </div>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Họ và tên *" required>
+                <input type="email" placeholder="Địa chỉ Email *" required>
+                <textarea rows="5" placeholder="Lời nhắn của bạn..." required></textarea>
+                <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Huỳnh Ngọc Hải. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>

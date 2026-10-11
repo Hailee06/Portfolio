@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huynh Hai Portfolio Dashboard</title>
+    <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+        ☰
+    </label>
+    <label for="menu-toggle" class="overlay"></label>
+    <div class="container">
+
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>Huynh Hai</h2>
+                <p>Portfolio Dashboard</p>
+            </div>
+
+            <nav class="menu">
+                <a href="#" class="active">🏠 Dashboard</a>
+                <a href="#">📁 Projects</a>
+                <a href="#">⚡ Skills</a>
+                <a href="#">👤 Profile</a>
+                <a href="#">✉️ Messages</a>
+            </nav>
+
+            <div class="logout">
+                <a href="Login.html">🚪 Logout</a>
+            </div>
+
+        </aside>
+
+        <header class="header">
+            <div class="welcome">
+                <h1>Welcome back, Huynh Hai!</h1>
+                <p>Manage your portfolio and projects.</p>
+            </div>
+
+            <div class="user-info">
+                <img src="avatar.jpg"
+                     alt="Avatar"
+                     class="user-avatar">
+
+                <div class="user-detail">
+                    <div class="user-name">
+                        Huynh Hai
+                    </div>
+                    <small>Frontend Developer</small>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="stats">
+                <div class="card">
+                    <h3>Projects</h3>
+                    <p>4</p>
+                </div>
+
+                <div class="card">
+                    <h3>Skills</h3>
+                    <p>5</p>
+                </div>
+
+                <div class="card">
+                    <h3>Messages</h3>
+                    <p>2</p>
+                </div>
+
+                <div class="card">
+                    <h3>Profile Views</h3>
+                    <p>128</p>
+                </div>
+            </section>
+
+            <div class="dashboard-grid">
+                <section class="projects">
+                    <div class="section-header">
+                        <h2>Projects</h2>
+                        <button>Add Project</button>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Technology</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Portfolio Website</td>
+                                <td>HTML, CSS</td>
+                                <td>Completed</td>
+                            </tr>
+
+                            <tr>
+                                <td>Restaurant Website</td>
+                                <td>HTML, CSS</td>
+                                <td>In Progress</td>
+                            </tr>
+
+                            <tr>
+                                <td>Algorithm Optimization</td>
+                                <td>C++, Algorithms</td>
+                                <td>Completed</td>
+                            </tr>
+
+                            <tr>
+                                <td>UniShare Prototype</td>
+                                <td>UI/UX, Figma</td>
+                                <td>Completed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="skills">
+                    <div class="section-header">
+                        <h2>Skills</h2>
+                        <button>Add Skill</button>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Skill</th>
+                                <th>Level</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>92%</td>
+                            </tr>
+
+                            <tr>
+                                <td>CSS</td>
+                                <td>70%</td>
+                            </tr>
+
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>50%</td>
+                            </tr>
+
+                            <tr>
+                                <td>C++</td>
+                                <td>85%</td>
+                            </tr>
+
+                            <tr>
+                                <td>SQL</td>
+                                <td>81%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="profile">
+                    <h2>Profile Information</h2>
+                    <form>
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" value="Huynh Hai">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" value="huynhhai@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" value="Ho Chi Minh City">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Position</label>
+                            <input type="text" value="Frontend Developer Student">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Bio</label>
+                            <textarea>IT student at UTH, focused on Front-end Development.</textarea>
+                        </div>
+
+                        <button type="submit">
+                            Save Changes
+                        </button>
+                    </form>
+                </section>
+
+                <section class="messages">
+                    <h2>Messages</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Message</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Nguyen Van A</td>
+                                <td>I want to discuss a project.</td>
+                            </tr>
+
+                            <tr>
+                                <td>Tran Thi B</td>
+                                <td>Your portfolio looks great.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
